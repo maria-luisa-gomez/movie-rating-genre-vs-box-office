@@ -11,7 +11,7 @@
 ####  2) Movie genre vs rating 
 ####  2) Movie genre vs awards - Why is hard for comedy movies to get to the Oscars? Note we could only get 380 registers from IMDb api because of the request limit
 
-## see analysis [here](https://nbviewer.jupyter.org/github/maria-luisa-gomez/movie-rating-genre-vs-box-office/blob/main/Movies_Analysis.ipynb))
+### see analysis [here](https://nbviewer.jupyter.org/github/maria-luisa-gomez/movie-rating-genre-vs-box-office/blob/main/Movies_Analysis.ipynb)
 
 ### DATA SOURCE
 
