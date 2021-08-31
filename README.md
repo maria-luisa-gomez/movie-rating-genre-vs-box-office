@@ -16,7 +16,7 @@
 #### For this proyect we are going to work with two different data sources: Kaggle and IMDb API (rapidapi)
 #### KAGGLE: Originally this data was downloades from IMDb API but the we need more information from the API that is missing. From this data we are going to use mainly imdb_title_id, original_title, year, country, language, budget and worlwide_gross_income.
 #### IMDb API (rapidapi): we are using imdb_title_id to make the request to the api and get the info about awards.
-## NOTES ABOUT IMDb API (rapidapi): 
+#### NOTES ABOUT IMDb API (rapidapi): 
 
 #### You can only make a query by movie title througth IMBb API.  For example "Titanic".
 #### Movie title is mandatory if you want any type of query througth IMBb API.  For example "Titanic" --> https://imdb-api.com/API/Search/{APIKey}/Titanic.
