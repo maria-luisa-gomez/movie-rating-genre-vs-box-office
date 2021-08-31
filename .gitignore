@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# Ignore datasets
+kaggle_movie_dataset_final.csv
+movie_dataset_final_sample.csv
+IMDb movies.csv
+IMDb ratings.csv
+IMDb title_principals.csv
+df_awards_final.csv
