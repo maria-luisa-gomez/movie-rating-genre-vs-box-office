@@ -7,7 +7,8 @@
 ### HYPOTHESIS
 
 #### Other hypothesis we want to resolve:
-####  1) Movie genre vs rating 
+####  1) Movies high rated are always the ones that make more money?
+####  2) Movie genre vs rating 
 ####  2) Movie genre vs awards - Why is hard for comedy movies to get to the Oscars? Note we could only get 380 registers from IMDb api because of the request limit
 
 
@@ -22,3 +23,19 @@
 #### Movie title is mandatory if you want any type of query througth IMBb API.  For example "Titanic" --> https://imdb-api.com/API/Search/{APIKey}/Titanic.
 #### You'll get Titanic movie info and also information about movies that matches close variants of that one, like "Titan". That can be an issue and a complicated situation in which we will have to extract from all the matches the one we want. If you make 500 requests from 500 different movies, thousand of other movies information will be there.
 #### For this matter we can make a title query by title ID (unique for each movie) and will make sure we get only the information of the movies we want.  We will use a IMDb csv dataset already available in Kaggle which includes these ids and its correspodent movie title.
+
+### LIBRARIES
+
+numpy
+
+pandas
+
+seaborn
+
+datetime
+
+matplotlib.pyplot
+
+regex
+
+plotly
