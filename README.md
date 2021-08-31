@@ -2,16 +2,16 @@
 
 #### The main purpose of this data analysis is to find out if there's a correlation between the rating of the movie and its box-office earnings. Movies high rated are always the ones that make more money?
 
-#### Note that in order to make a fair analyis in terms of box-office earnings we are filtering movies just from the 2000's and movies with earnings dollar currency only.
+
 
 ### HYPOTHESIS
 
 #### Other hypothesis we want to resolve:
-####  1) Movies high rated are always the ones that make more money?
-####  2) Movie genre vs rating 
-####  2) Movie genre vs awards - Why is hard for comedy movies to get to the Oscars? Note we could only get 380 registers from IMDb api because of the request limit
+####  1) Movies (movies from 1970 to 2018) high rated are always the ones that make more money?
+####  2) Movie genre vs rating (movies from 1970 to 2018)
+####  3) Movie genre vs awards (2000's movies only) - Why is hard for comedy movies to get to the Oscars? Note we could only get 380 registers from IMDb api because of the request limit
 
-### see analysis [here](https://nbviewer.jupyter.org/github/maria-luisa-gomez/movie-rating-genre-vs-box-office/blob/main/Movies_Analysis.ipynb)
+### see visual analysis [here](https://nbviewer.jupyter.org/github/maria-luisa-gomez/movie-rating-genre-vs-box-office/blob/main/Movies_Analysis.ipynb)
 
 ### DATA SOURCE
 
